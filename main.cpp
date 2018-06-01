@@ -4,5 +4,6 @@
 
 int main(int argc, char** argv) {
 	printf("Hello Mar!!");
+	scanf("%d", &a);
 	return 0;
 }
