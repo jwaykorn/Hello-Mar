@@ -7,7 +7,12 @@ int main(int argc, char** argv) {
 	printf("Hello Mar!!\n");
 	printf("Enter Your State Number: ");
 	scanf("%d",&i);
-	printf("Stat: %d", i);
+	
+	if (i==1){
+		printf("Helo Noth Mar.");
+	}else if(i==2){
+		printf("Helo East Mar.");
+	}
 	return 0;
 	
 }
